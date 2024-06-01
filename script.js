@@ -8,7 +8,8 @@ const letters = Array(256).join(1).split('');
 const fontSize = 30;  // Aumenta el tamaño de la fuente
 const columns = canvas.width / fontSize;
 
-const word = "Remote";
+const word = "Remote
+Solutions And Support";
 const wordColumn = Math.floor(columns / 2) - Math.floor(word.length / 2); // Centra horizontalmente
 let wordPosition = 0;
 let wordRow = Math.floor(canvas.height / fontSize / 2); // Centra verticalmente
