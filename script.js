@@ -5,7 +5,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const letters = Array(256).join(1).split('');
-const fontSize = 40;  // Aumenta el tamaño de la fuente
+const fontSize = 30;  // Aumenta el tamaño de la fuente
 const columns = canvas.width / fontSize;
 
 const word = "Remote";
